@@ -6,7 +6,7 @@ void print_buffer(char buffer[], int *buff_ind);
  * Return: Printed chars.
  */
 int _printf(const char *format, ...)
-
+/** file reviewed */
 {
 
 int i, printed = 0, printed_chars = 0;
